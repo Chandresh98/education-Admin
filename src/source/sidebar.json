@@ -1,0 +1,81 @@
+{
+    "superadmin": [
+        {
+            "name": "Dashboard",
+            "url": "/dashboard",
+            "icon": "faTableColumns",
+            "children": []
+        },
+        {
+            "name": "Institutes",
+            "url": "/institutes",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Institute Group",
+                    "url": "institute-group",
+                    "icon": "fa fa-group"
+                }
+            ]
+        }
+    ],
+    "admin": [
+        {
+            "name": "Dashboard",
+            "url": "/dashboard",
+            "icon": "pi pi-objects-column",
+            "children": []
+        },
+        {
+            "name": "Academic",
+            "url": "/academic",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Sections",
+                    "url": "sections",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Classes/Courses",
+                    "url": "courses",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Student Management",
+            "url": "/student-management",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Students Info",
+                    "url": "students",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Students Admission",
+                    "url": "students-admission",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Settings",
+            "url": "/settings",
+            "icon": "pi pi-cog",
+            "children": [
+                {
+                    "name": "Session",
+                    "url": "sessions",
+                    "icon": "pi pi-check"
+                },
+                {
+                    "name": "Users",
+                    "url": "users",
+                    "icon": "fa fa-group"
+                }
+            ]
+        }
+    ]
+}
