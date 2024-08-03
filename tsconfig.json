@@ -32,7 +32,8 @@
         "src/app/(auth)/login/page.tsx",
         "src/components/Header/DropdownUser.tsx",
         "src/components/Header/index.tsx",
-        "src/lib/dataTable.js"
+        "src/lib/dataTable.js",
+        ".next/types/app/[subdomain]/front-cms/page.tsx"
     ],
     "exclude": ["node_modules"]
 }

@@ -5,21 +5,21 @@ import { MaterialReactTable, useMaterialReactTable } from 'material-react-table'
 import { useEffect, useState } from 'react'
 
 import TableHeader from '@/components/DataTable/Header'
-import { SessionColumn } from '@/Columns/SessionColumn'
+import { SessionColumn } from '@/Columns/Academic/SessionColumn'
 
 export const SessionTable = () => {
     const [data, setData] = useState([])
 
-    useEffect(() => {
-        const fetchInstituteGroup = async () => {
-            await axios.post('/api/core/sessions').then(res => {
-                console.log(res)
+    // useEffect(() => {
+    //     const fetchInstituteGroup = async () => {
+    //         await axios.post('/api/core/sessions').then(res => {
+    //             console.log(res)
 
-                setData(res.data.data)
-            })
-        }
-        fetchInstituteGroup()
-    }, [])
+    //             setData(res.data.data)
+    //         })
+    //     }
+    //     fetchInstituteGroup()
+    // }, [])
 
     const table = useMaterialReactTable({
         columns: SessionColumn,

@@ -16,14 +16,16 @@ const Header = (props: {
     setSidebarOpen: (arg0: boolean) => void
 }) => {
     // console.log(getValidSubdomain())
-    const { user } = getValidSubdomain()
-        ? useAdminAuth({ middleware: 'auth' })
-        : useAuth({ middleware: 'auth' })
+    // const { user } = getValidSubdomain()
+    //     ? useAdminAuth({ middleware: 'auth' })
+    //     : useAuth({ middleware: 'auth' })
     // if (getValidSubdomain()) {
     //     const { user } = useAdminAuth({ middleware: 'auth' })
     // } else {
     //     const { user } = useAuth({ middleware: 'auth' })
     // }
+
+    const { user } = { user: { name: 'admin', email: '<EMAIL>' } }
     return (
         <header className="sticky top-0 z-999 w-full flex bg-white drop-shadow-1 dark:bg-boxdark dark:drop-shadow-none">
             <div className="flex flex-grow items-center justify-between px-4 py-4 shadow-2 md:px-6 2xl:px-11">

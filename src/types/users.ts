@@ -1,14 +1,14 @@
 export interface User {
-    id: number
+    id?: number
     name: string
     email: string
     phone?: string
-    is_admin: boolean
+    is_admin?: boolean
     created_at?: string
     updated_at?: string
     status?: boolean
     avatar?: string
-    email_verified: boolean
+    email_verified?: boolean
 }
 
 export type UserParams = {

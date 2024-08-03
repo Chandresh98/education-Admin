@@ -27,6 +27,48 @@
             "children": []
         },
         {
+            "name": "Front Office",
+            "url": "/front-office",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Admission Enquiry",
+                    "url": "admission-enquiry",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Visitor Book",
+                    "url": "visitor-book",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Phone Call Log",
+                    "url": "phone-call-log",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Postal Dispatch",
+                    "url": "postal-dispatch",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Postal Receive",
+                    "url": "postal-receive",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Complain",
+                    "url": "complain",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Setup Front Office",
+                    "url": "setup-front-office",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
             "name": "Academic",
             "url": "/academic",
             "icon": "fa fa-institute",
@@ -38,7 +80,143 @@
                 },
                 {
                     "name": "Classes/Courses",
-                    "url": "courses",
+                    "url": "classes-courses",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Subject",
+                    "url": "subject",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Subject Group",
+                    "url": "subject-group",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Promote Student",
+                    "url": "promote-student",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Assign Class teacher",
+                    "url": "assign-class-teacher",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Homework",
+                    "url": "homework",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "HR",
+            "url": "/hr",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Staff",
+                    "url": "staff",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "disable Staff",
+                    "url": "disable-staff",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Staff Leave Apply",
+                    "url": "staff-leave-apply",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Approve Leave",
+                    "url": "approve-leave",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Staff Attendance",
+                    "url": "staff-attendance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Payroll",
+                    "url": "payroll",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Teacher Rating",
+                    "url": "teacher-rating",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Transport",
+            "url": "/transport",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Vehicles",
+                    "url": "vehicles",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Stops",
+                    "url": "stops",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Route",
+                    "url": "route",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Vehicle assignment",
+                    "url": "vehicle-assignment",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Trip-logs",
+                    "url": "trip-logs",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Vehicle Maintenance",
+                    "url": "vehicle-maintenance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Vehicle fuel",
+                    "url": "vehicle-fuel",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Hostel",
+            "url": "/hostel",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Hostel",
+                    "url": "hostel",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Hostel rooms",
+                    "url": "hostel-rooms",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Hostel room allocation",
+                    "url": "hostel-room-allocation",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Visitor Log",
+                    "url": "visitor-log",
                     "icon": "fa fa-group"
                 }
             ]
@@ -49,13 +227,477 @@
             "icon": "fa fa-institute",
             "children": [
                 {
-                    "name": "Students Info",
-                    "url": "students",
+                    "name": "Students Admission",
+                    "url": "students-admission",
                     "icon": "fa fa-group"
                 },
                 {
-                    "name": "Students Admission",
-                    "url": "students-admission",
+                    "name": "Student Detail",
+                    "url": "student-detail",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Disable Student",
+                    "url": "disable-student",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Bulk Delete",
+                    "url": "bulk-delete",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Student Attendance",
+                    "url": "student-attendance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Student Leave request",
+                    "url": "student-leave-request",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Online Admission",
+                    "url": "online-admission",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Time Table",
+            "url": "/time-table",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Time Table",
+                    "url": "time-table",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Student Time Table",
+                    "url": "student-time-table",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Teacher Time Table",
+                    "url": "teacher-time-table",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Examination",
+            "url": "/examination",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Term",
+                    "url": "term",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Exam",
+                    "url": "exam",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Grade Type",
+                    "url": "grade-type",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Grade",
+                    "url": "grade",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Exam Schedule",
+                    "url": "exam-schedule",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Exam Marks",
+                    "url": "exam-marks",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Marks Card Setting",
+                    "url": "marks-card-setting",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Finance",
+            "url": "/finance",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Budget",
+                    "url": "budget",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Budget Type",
+                    "url": "budget-type",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Expense",
+                    "url": "expense",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Expense Type",
+                    "url": "expense-type",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Fee Discount",
+                    "url": "fee-discount",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Fee Group",
+                    "url": "fee-group",
+                    "icon": "fa fa-groupFinance"
+                },
+                {
+                    "name": "Fee Type",
+                    "url": "fee-type",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Library",
+            "url": "/library",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Member",
+                    "url": "member",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Book Category",
+                    "url": "book-category",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Book",
+                    "url": "book",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Library Setting",
+                    "url": "library-setting",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Book Transaction",
+                    "url": "book-transaction",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Certificate",
+            "url": "/certificate",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Template",
+                    "url": "template",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Generate Staff Certificate",
+                    "url": "generate-staff-certificate",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Generate Staff ID",
+                    "url": "generate-staff-id",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Generate Student Certificate",
+                    "url": "generate-student-certificate",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Generate Student ID",
+                    "url": "generate-student-id",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Front CMS",
+            "url": "/front-cms",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Event",
+                    "url": "event",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Gallery",
+                    "url": "gallery",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "News",
+                    "url": "news",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Media Manager",
+                    "url": "media-manager",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Pages",
+                    "url": "pages",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Menus",
+                    "url": "menus",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Banner Images",
+                    "url": "banner-images",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Alumni",
+            "url": "/alumni",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Manage Alumni",
+                    "url": "manage-alumni",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Events",
+                    "url": "events",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Communicate",
+            "url": "/communicate",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Notice Board",
+                    "url": "notice-board",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Send Email",
+                    "url": "send-email",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Send SMS",
+                    "url": "send-sms",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Email / SMS Log",
+                    "url": "email-sms-log",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Login Credentials Send",
+                    "url": "login-credentials-send",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Lesson Plan",
+            "url": "/lesson-plan",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Manage Lesson Plan",
+                    "url": "manage-lesson-plan",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Manage Syllabus Status",
+                    "url": "manage-syllabus-status",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Lesson",
+                    "url": "lesson",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Topic",
+                    "url": "topic",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Inventory",
+            "url": "/Inventory",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Issue Item",
+                    "url": "issue-item",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Add Item Stock",
+                    "url": "add-item-stock",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Add Item",
+                    "url": "add-item",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Item Category",
+                    "url": "item-category",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Item Store",
+                    "url": "item-store",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Item Supplier",
+                    "url": "item-supplier",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Download Center",
+            "url": "/download-center",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Upload Content",
+                    "url": "upload-content",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Assignments",
+                    "url": "assignments",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Study Material",
+                    "url": "study-material",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Syllabus",
+                    "url": "syllabus",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Other Downloads",
+                    "url": "other-downloads",
+                    "icon": "fa fa-group"
+                }
+            ]
+        },
+        {
+            "name": "Reports",
+            "url": "/reports",
+            "icon": "fa fa-institute",
+            "children": [
+                {
+                    "name": "Student Information",
+                    "url": "student-information",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Finance",
+                    "url": "finance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Attendance",
+                    "url": "attendance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Examination",
+                    "url": "examination",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Online Examination",
+                    "url": "online-examinations-report",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Lesson Plan",
+                    "url": "lesson-plan",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Human Resource",
+                    "url": "human-resource-report",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Library",
+                    "url": "library",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Inventory",
+                    "url": "inventory",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Transport",
+                    "url": "transport",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Hostel",
+                    "url": "hostel",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Alumni",
+                    "url": "alumni",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "User Log",
+                    "url": "user-log",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Audit Trail Report",
+                    "url": "audit-trail-report",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Annexure Report",
+                    "url": "annexure-report",
                     "icon": "fa fa-group"
                 }
             ]
@@ -71,8 +713,123 @@
                     "icon": "pi pi-check"
                 },
                 {
-                    "name": "Users",
-                    "url": "users",
+                    "name": "Languages",
+                    "url": "language",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Institute Settings",
+                    "url": "institute-settings",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Role",
+                    "url": "role",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Modules",
+                    "url": "modules",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Assign permission to role",
+                    "url": "assign-permission-to-role",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "User",
+                    "url": "user",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Disable Reasons",
+                    "url": "disable-reasons",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Student Category",
+                    "url": "student-category",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Student House",
+                    "url": "student-house",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Department",
+                    "url": "department",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Designation",
+                    "url": "designation",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Leave Types",
+                    "url": "leave-types",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Form Group",
+                    "url": "form-group",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Custom Fields",
+                    "url": "custom-fields",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Staff Shift",
+                    "url": "staff-shift",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Assign Shift to staff",
+                    "url": "assign-shift-to-staff",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Allowance",
+                    "url": "allowance",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Deduction",
+                    "url": "deduction",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "SMS Setting",
+                    "url": "sms-setting",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Email Setting",
+                    "url": "email-setting",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Payment Gateway",
+                    "url": "payment-gateway",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Front CMS Setting",
+                    "url": "front-cms-setting",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Online Admission Setting",
+                    "url": "online-admission-setting",
+                    "icon": "fa fa-group"
+                },
+                {
+                    "name": "Header and Footer",
+                    "url": "header-footer",
                     "icon": "fa fa-group"
                 }
             ]
